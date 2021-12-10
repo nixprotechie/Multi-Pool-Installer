@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/nixprotechie/multipool_setup_Kudaraidee.git \
+		https://github.com/nixprotechie/multipool_setup.git \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
